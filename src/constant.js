@@ -33,10 +33,10 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+ // Experience Section Logo's
+// import webverseLogo from './assets/company_logo/webverse_logo.png';
+// import agcLogo from './assets/company_logo/agc_logo.png';
+// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import bsaLogo from './assets/education_logo/bsa_logo.jpg';
