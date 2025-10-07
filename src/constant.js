@@ -242,7 +242,7 @@ export const SkillsInfo = [
         "MLC Scorecard is a dynamic web application built using React that displays real-time scorecards and match details of the Major League Cricket (MLC). The application fetches data from a cricket API and presents users with up-to-date match scores, team lineups and other match information in a clean and responsive UI.",
       image:  mlcscoreLogo,
       tags: ["React JS", "CSS", "API", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+      github: "https://github.com/AbuTurab7/MLC-Scorecard",
       webapp: "https://mlc-scorecard-abu.netlify.app/",
     },
     {
@@ -252,7 +252,7 @@ export const SkillsInfo = [
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
       tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
+      github: "https://github.com/AbuTurab7/Image-finder",
       webapp: "https://image-finder-by-abu.netlify.app/",
     },
     
