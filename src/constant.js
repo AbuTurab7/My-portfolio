@@ -43,10 +43,10 @@ import bsaLogo from './assets/education_logo/bsa_logo.jpg';
 import vpsLogo from './assets/education_logo/vps_logo.jpg';
 
 // Project Section Logo's
+import urlShortnerLogo from './assets/work_logo/url_shortner.png';
 import githubdetLogo from './assets/work_logo/github_det.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import mlcscoreLogo from './assets/work_logo/mlc_scorecard.png'
-import pokemonLogo from './assets/work_logo/pokemon_finder.png'
 import weatherappLogo from './assets/work_logo/weather_app.png'
 import swiggycloneLogo from './assets/work_logo/swiggy_clone.png'
 
@@ -197,6 +197,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "URL Shortner",
+      description:
+        "Built a full-stack URL shortening web application using Express.js, EJS for templating, and Drizzle ORM for database interactions. Features include user registration/authentication, link tracking analytics, email notifications, and custom alias support.",
+      image: urlShortnerLogo,
+      tags: ["Node.js", "Express.js", "EJS", "Drizzle ORM", "JWT Authentication","Resend API"],
+      github: "https://github.com/AbuTurab7/Url_Shortner_Drizzle",
+      webapp: "https://url-shortner-4bip.onrender.com",
+    },
+    {
+      id: 1,
       title: "Swiggy Clone",
       description:
         "This Swiggy Clone is a full-featured online food ordering web application inspired by Swiggy. It allows users to browse nearby restaurants, explore menus, add items to cart, and securely authenticate using Firebase. The app provides a fast, responsive, and dynamic user experience using modern frontend tools and real-time data handling.",
@@ -206,7 +216,7 @@ export const SkillsInfo = [
       webapp: "https://swiggy-clone-by-abu.netlify.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "GitHub Profile Viewer",
       description:
         "A powerful and user-friendly application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -216,7 +226,7 @@ export const SkillsInfo = [
       webapp: "https://github-profile-viewer-by-abu.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Weather App",
       description:
         "The Weather App is a responsive web application built using HTML, CSS, and JavaScript that allows users to check the current weather conditions of any city in the world. By integrating with a public weather API , the app fetches real-time weather data and displays it in a user-friendly interface.",
@@ -226,7 +236,7 @@ export const SkillsInfo = [
       webapp: "https://weather-app-by-abu.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "MLC Scorecard",
       description:
         "MLC Scorecard is a dynamic web application built using React that displays real-time scorecards and match details of the Major League Cricket (MLC). The application fetches data from a cricket API and presents users with up-to-date match scores, team lineups and other match information in a clean and responsive UI.",
@@ -236,7 +246,7 @@ export const SkillsInfo = [
       webapp: "https://mlc-scorecard-abu.netlify.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Image Search App",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
@@ -245,16 +255,5 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://image-finder-by-abu.netlify.app/",
     },
-    {
-      id: 5,
-      title: "Pokemon Finder",
-      description:
-        "The Pokémon Search App is a sleek and interactive React application that allows users to search for Pokémon by name and view detailed information fetched from the PokéAPI. It provides a fun and responsive interface to explore various Pokémon, their images, types, abilities, stats, and more.",
-      image: pokemonLogo,
-      tags: ["React JS", "CSS", "API", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://pokemon-finder-by-abuturab.netlify.app/",
-    },
-    
     
   ];  
