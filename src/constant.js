@@ -48,7 +48,7 @@ import githubdetLogo from './assets/work_logo/github_det.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import mlcscoreLogo from './assets/work_logo/mlc_scorecard.png'
 import weatherappLogo from './assets/work_logo/weather_app.png'
-import quickBiteLogo from './assets/work_logo/QuickBite.png'
+import quickBiteLogo from './assets/work_logo/quickBite.png'
 
 
 export const SkillsInfo = [
