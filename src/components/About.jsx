@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
-import profileImage from "../assets/profile1.png";
+import profileDark from "../assets/profileDark.png";
+import profileLight from "../assets/profileLight.png";
 import { Typewriter } from 'react-simple-typewriter';
 import { useContext } from "react";
 import { Mode } from "../ContextAPI";
@@ -51,7 +52,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1KElVFeQQnB9cCU2VPtLb7MSoSHBk_ZNO/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZWlKfBl9unKqpEuEhLcpDzcbgrK9yJrR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -75,7 +76,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profileImage}
+              src={isDark ? profileDark : profileLight }
               alt="Abu Turab"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />

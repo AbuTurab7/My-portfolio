@@ -48,7 +48,7 @@ import githubdetLogo from './assets/work_logo/github_det.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import mlcscoreLogo from './assets/work_logo/mlc_scorecard.png'
 import weatherappLogo from './assets/work_logo/weather_app.png'
-import swiggycloneLogo from './assets/work_logo/swiggy_clone.png'
+import quickBiteLogo from './assets/work_logo/QuickBite.png'
 
 
 export const SkillsInfo = [
@@ -85,7 +85,7 @@ export const SkillsInfo = [
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
+      // { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
@@ -101,7 +101,7 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
       // { name: 'Postman', logo: postmanLogo },
       // { name: 'Compass', logo: mcLogo },
-      // { name: 'Vercel', logo: vercelLogo },
+      { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       // { name: 'Figma', logo: figmaLogo },
     ],
@@ -197,6 +197,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "QuickBite",
+      description:
+        "QuickBite is a full-stack food delivery application where users can browse restaurants, view menus, manage their cart, and place orders. It includes secure JWT authentication, role-based access (customer, admin, delivery partner), and Razorpay-powered online payments. The app features a responsive React UI with Redux for state management and a scalable backend built using Node.js, Express, and MongoDB.",
+      image: quickBiteLogo,
+      tags: ["React JS", "React-Redux", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Razorpay", "REST APIs"],
+      github: "https://github.com/AbuTurab7/QuickBite/",
+      webapp: "https://quickbite-7qv3.onrender.com/",
+    },
+    {
+      id: 1,
       title: "URL Shortner",
       description:
         "Built a full-stack URL shortening web application using Express.js, EJS for templating, and Drizzle ORM for database interactions. Features include user registration/authentication, link tracking analytics, email notifications, and custom alias support.",
@@ -204,16 +214,6 @@ export const SkillsInfo = [
       tags: ["Node.js", "Express.js", "EJS", "Drizzle ORM", "JWT Authentication","Resend API"],
       github: "https://github.com/AbuTurab7/Url_Shortner_Drizzle",
       webapp: "https://url-shortner-4bip.onrender.com",
-    },
-    {
-      id: 1,
-      title: "Swiggy Clone",
-      description:
-        "This Swiggy Clone is a full-featured online food ordering web application inspired by Swiggy. It allows users to browse nearby restaurants, explore menus, add items to cart, and securely authenticate using Firebase. The app provides a fast, responsive, and dynamic user experience using modern frontend tools and real-time data handling.",
-      image: swiggycloneLogo,
-      tags: ["React JS", "React-Redux", "React-Redux", "HTML", "CSS", "JavaScript",  "API"],
-      github: "https://github.com/AbuTurab7/Swiggy-clone.git",
-      webapp: "https://swiggy-clone-by-abu.netlify.app/",
     },
     {
       id: 2,
